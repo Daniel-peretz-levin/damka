@@ -1,0 +1,50 @@
+h1 {
+    background-color: lightblue;
+}
+h3{
+color: white;
+padding: 10px;
+background-color: lightgray
+}
+
+body {
+    background-color: wheat;
+    text-align: center;
+}
+
+.black {
+    background-color: gray
+}
+
+.white {
+    background-color: rgb(236, 245, 245);
+}
+.currentTurn{
+    background-color: green;
+}
+
+.main-container {
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+.side{
+    display: flex;
+    flex-direction: column;
+}
+
+.game-board td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.4em;
+}
+.selected {
+    outline: 5px solid gold;
+}
+.mark {
+    background-color: lightpink
+}
+
+
